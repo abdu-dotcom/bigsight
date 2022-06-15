@@ -1,0 +1,69 @@
+#AboutUs-Section3 {
+    width: 100vw;
+    height: fit-content;
+}
+.AboutUs-Section3-Container {
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.AboutUs-Section3-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #484848;
+}
+.AboutUs-Section3-Left-Content-Container {
+    width: 100%;
+    max-width: 598px;
+}
+.AboutUs-Section3-Desc {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 00;
+    font-size: 20px;
+    line-height: 137%;
+    /* or 41px */
+    text-align: justify;
+    text-transform: capitalize;
+    color: #484848;
+    padding-top: 40px;
+}
+.AboutUs-Section3-Left-Content-Row2 {
+    margin-top: 69px;
+}
+
+.AboutUs-Section3-Right-Content-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutUs-Section3-Background-Container {
+    width: 479px;
+    height: 550px;
+    background: #f2f4f8;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.AboutUs-Section3-Panah-Container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.AboutUs-Section3-Panah-Wrapper {
+    width: 384px;
+    height: 289.8px;
+    padding-top: 30px;
+    position: relative;
+    left: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+    .AboutUs-Section3-Right-Content-Container {
+        transform: scale(0.9);
+    }
+}

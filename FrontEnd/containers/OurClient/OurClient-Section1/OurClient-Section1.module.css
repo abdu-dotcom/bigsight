@@ -1,0 +1,90 @@
+#OurClient-Section1 {
+    height: 422px;
+    background: linear-gradient(95.33deg, #002145 18.24%, #ee2e24 125.82%);
+}
+
+.OurClient-Section1-Left-Column {
+    height: 422px;
+    display: flex;
+    align-items: center;
+}
+
+.OurClient-Section1-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.OurClient-Section1-Vector-Wrapper {
+    width: 373px;
+    height: 132px;
+}
+
+.OurClient-Section1-Right-Column {
+    height: 422px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+    #OurClient-Section1 {
+        height: 300px;
+    }
+    .OurClient-Section1-Left-Column {
+        height: 300px;
+    }
+    .OurClient-Section1-Right-Column {
+        height: 300px;
+    }
+    .OurClient-Section1-Vector-Wrapper {
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #OurClient-Section1 {
+        height: 200px;
+    }
+    .OurClient-Section1-Left-Column {
+        height: 200px;
+    }
+    .OurClient-Section1-Right-Column {
+        height: 200px;
+    }
+    .OurClient-Section1-Vector-Wrapper {
+        transform: scale(0.6);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .OurClient-Section1-Right-Column {
+        display: none;
+    }
+    .OurClient-Section1-Left-Column {
+        width: 100vw;
+        justify-content: center;
+    }
+    .OurClient-Section1-Title {
+        font-size: calc(0.8 * 48px);
+    }
+}
+
+@media screen and (max-width: 512px) {
+    #OurClient-Section1 {
+        height: 150px;
+    }
+    .OurClient-Section1-Left-Column {
+        height: 150px;
+    }
+    .OurClient-Section1-Right-Column {
+        height: 150px;
+    }
+    .OurClient-Section1-Title {
+        font-size: calc(0.6 * 48px);
+    }
+}

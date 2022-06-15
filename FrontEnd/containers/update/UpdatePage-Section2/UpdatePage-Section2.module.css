@@ -1,0 +1,43 @@
+#UpdatePage-Section2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    padding: 80px 50px;
+    justify-content: space-evenly;
+}
+
+.UpdatePage-Section2-Container {
+    width: 570px;
+    height: 541px;
+    margin: 0 40px;
+}
+
+.UpdatePage-Section2-content-img {
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.UpdatePage-Section2-content-title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    height: 50px;
+}
+
+.UpdatePage-Section2-content-dec {
+    font-family: "Roboto Flex", sans-serif;
+    margin-bottom: 32px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.UpdatePage-Section2-content-button {
+    all: unset;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 25px 10px 15px;
+    background-color: red;
+}

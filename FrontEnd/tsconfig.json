@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Card/LandingPage/CardBigSightLandingPage.jsx", "containers/LandingPage/LandingPage-Section5/LandingPage-Section5.jsx", "containers/Footer/rcc", "components/Card/Solutions/CardItemSolution.jsx", "containers/OurClient/Bri/Bri-Section2/Bri-Section2.jsx", "components/Card/Solutions/SolutionsCardItem.jsx", "containers/Solutions/Solutions-Section2/Solutions-Section2.jsx", "containers/OurClient/Kementan/Kementan-Section2/Kementan-Section2.jsx", "components/Section/Section Contact Us/SectionContactUs.jsx"],
+  "exclude": ["node_modules"]
+}

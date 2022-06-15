@@ -1,0 +1,13 @@
+version: "3"
+services:
+  minio:
+    image: telkomindonesia/debian:minio-1.0
+    ports:
+      - 9000:9000
+    volumes:
+      - ./minio:/data/minio
+    container_name: minio
+    environment:
+      - MINIO_ACCESS_KEY=Test1234567
+      - MINIO_SECRET_KEY=Test1234567
+      - MINIO_BROWSER=on

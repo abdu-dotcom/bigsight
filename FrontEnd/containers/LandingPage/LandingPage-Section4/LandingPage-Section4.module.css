@@ -1,0 +1,68 @@
+#LandingPage-Section4 {
+    max-width: 100vw;
+    height: fit-content;
+    min-height: 796px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 11px solid #ee2e24;
+    border-top: 11px solid #ee2e24;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.LandingPage-Section4-Row-Container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.LandingPage-Section4-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: capitalize;
+    color: #35414b;
+}
+
+.LandingPage-Section4-Video-Container {
+    max-width: 784px;
+    max-height: 464px;
+}
+
+.LandingPage-Section4-Aspect-Ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    /* The height of the item will now be 56% of the width. */
+    padding-bottom: 56%;
+}
+
+.LandingPage-Section4-Video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage-Section4-Title {
+        font-size: calc(0.9 * 96px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .LandingPage-Section4-Title {
+        width: 100%;
+        text-align: center;
+        font-size: calc(0.7 * 96px);
+    }
+    #LandingPage-Section4 {
+        min-height: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .LandingPage-Section4-Title {
+        font-size: calc(0.4 * 96px);
+    }
+}

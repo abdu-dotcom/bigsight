@@ -1,0 +1,65 @@
+#SolutionsSection2 {
+    min-height: 2001px;
+    background-color: #f2f4f8;
+}
+
+.SolutionsSection2-Column-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 86px;
+}
+
+.SolutionsSection2-Content-Container {
+    padding-bottom: 86px;
+}
+
+#SolutionsCard {
+    width: 100%;
+    max-width: 373px;
+    min-height: 353px;
+    background-color: white;
+}
+
+.SolutionsCard-Text-Container-Parent {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.SolutionsCard-Text-Container {
+    width: 323px;
+}
+
+.SolutionsCard-Text-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.SolutionsCard-Text-Desc {
+    font-family: "Roboto Flex", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding-top: 24px;
+    text-align: justify;
+}
+
+.SolutionsSection2-Column-Vector {
+    max-height: 342px;
+    width: 100%;
+    max-width: 361px;
+}
+
+@media screen and (max-width: 1200px) {
+    .SolutionsSection2-Column-Container-Khusus {
+        display: none;
+    }
+}

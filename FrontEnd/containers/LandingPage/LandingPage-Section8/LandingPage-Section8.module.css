@@ -1,0 +1,182 @@
+#LandingPage-Section8 {
+    width: 100vw;
+    height: 373px;
+    background: #002145;
+    position: relative;
+}
+
+.LandingPage-Section8-Text-Container {
+    margin-left: 90px;
+    padding-top: 114px;
+    position: absolute;
+}
+
+.LandingPage-Section8-Title {
+    width: 501px;
+    height: 70px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.LandingPage-Section8-Button-Container {
+    transition: all 0.4s ease-in-out;
+}
+
+.LandingPage-Section8-Button {
+    width: 321px;
+    height: 47px;
+    left: 0px;
+    top: 10px;
+    background: #ee2e24;
+    border-radius: 65px;
+    border: 1px solid #ee2e24;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+    margin-top: 56px;
+    transition: all 0.4s ease-in-out;
+}
+
+.LandingPage-Section8-Button:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.LandingPage-Section8-Background1-Container {
+    position: absolute;
+    width: 794.42px;
+    bottom: 0;
+    right: 0;
+}
+
+.LandingPage-Section8-Background1-Container-Wrapper {
+    position: relative;
+    top: 5px;
+}
+
+.LandingPage-Section8-Background2-Container {
+    width: 794.42px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10;
+    right: 0;
+}
+
+.LandingPage-Section8-Background2-Container-Wrapper {
+    width: 238.24px;
+    height: 381.62px;
+    margin-top: 21px;
+    margin-left: 52px;
+}
+
+@media screen and (max-width: 1440px) {
+    .LandingPage-Section8-Title {
+        left: 90px;
+    }
+    .LandingPage-Section8-Background1-Container {
+        width: calc(0.9 * 794.42px);
+    }
+    .LandingPage-Section8-Background2-Container {
+        width: calc(0.9 * 794.42px);
+        /* border: 1px solid blue; */
+    }
+    .LandingPage-Section8-Background2-Container-Wrapper {
+        width: calc(0.9 * 238.24px);
+        height: calc(0.9 * 381.62px);
+        margin-top: 57px;
+        margin-left: 49px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .LandingPage-Section8-Title {
+        font-size: 36px;
+    }
+    .LandingPage-Section8-Background1-Container {
+        width: calc(0.8 * 794.42px);
+    }
+    .LandingPage-Section8-Background2-Container {
+        width: calc(0.8 * 794.42px);
+        /* border: 1px solid blue; */
+    }
+    .LandingPage-Section8-Background2-Container-Wrapper {
+        width: calc(0.8 * 238.24px);
+        height: calc(0.8 * 381.62px);
+        margin-top: 92px;
+        margin-left: 44px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage-Section8-Background1-Container {
+        width: calc(0.7 * 794.42px);
+    }
+    .LandingPage-Section8-Background2-Container {
+        width: calc(0.7 * 794.42px);
+        /* border: 1px solid blue; */
+    }
+    .LandingPage-Section8-Background2-Container-Wrapper {
+        width: calc(0.7 * 238.24px);
+        height: calc(0.7 * 381.62px);
+        margin-top: 128px;
+        margin-left: 38px;
+    }
+    .LandingPage-Section8-Title {
+        left: 50px;
+    }
+    .LandingPage-Section8-Button {
+        width: 221px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #LandingPage-Section8 {
+        height: 300px;
+    }
+    .LandingPage-Section8-Background-Container {
+        display: none;
+    }
+    .LandingPage-Section8-Text-Container {
+        width: 100vw;
+        height: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+        display: flex;
+        align-items: center;
+    }
+    .LandingPage-Section8-Title {
+        text-align: center;
+        font-size: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100vw;
+        height: 100%;
+    }
+    .LandingPage-Section8-Button-Container {
+        width: 100vw;
+        display: flex;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        justify-content: center;
+        flex: auto;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+    .LandingPage-Section8-Button {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-top: 0px;
+    }
+}

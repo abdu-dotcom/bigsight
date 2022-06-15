@@ -1,0 +1,16 @@
+{
+    "locales": ["id", "en"],
+    "defaultLocale": "id",
+    "pages": {
+        "*": ["common"],
+        "/": ["landingpage"],
+        "/solutions": ["solution"],
+        "/our-client": ["our-client"],
+        "/our-client/bri": ["our-client-bri"],
+        "/our-client/kementan": ["our-client-kementan"],
+        "/about-us": ["about-us"],
+        "/update": ["news"],
+        "/faq": ["faq"],
+        "/contact-us": ["contact-us"]
+    }
+}

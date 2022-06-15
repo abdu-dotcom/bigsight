@@ -1,0 +1,49 @@
+#LandingPage-Section5 {
+    background-color: #f2f4f8;
+    min-height: fit-content;
+    width: 100vw;
+}
+
+.LandingPage-Section5-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #484848;
+    padding-top: 100px;
+}
+
+.LandingPage-Section5-AllCard-Container {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.LandingPage-Section5-Card-Container {
+    margin-top: 40px;
+}
+
+.LandingPage-Section5-ColumnContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage-Section5-Title1 {
+        font-size: 18px;
+    }
+    .LandingPage-Section5-Title2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .LandingPage-Section5-Title1 {
+        font-size: 16px;
+    }
+    .LandingPage-Section5-Title2 {
+        font-size: 30px;
+    }
+}

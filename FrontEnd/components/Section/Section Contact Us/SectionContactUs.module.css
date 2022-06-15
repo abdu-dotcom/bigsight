@@ -1,0 +1,83 @@
+#SectionContactUs {
+    width: 100%;
+    color: white;
+    background-color: #002145;
+    min-height: 338px;
+    text-align: center;
+    padding: 61px 0;
+}
+
+.SectionContactUs-title {
+    font-family: "Roboto Flex", sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.SectionContactUs-desc {
+    font-family: "Roboto Flex", sans-serif;
+    max-width: 663px;
+    margin: 0 auto;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.SectionContactUs-button {
+    width: 321px;
+    height: 47px;
+    left: 0px;
+    top: 10px;
+
+    background: #ee2e24;
+    border: 1px solid #ee2e24;
+    border-radius: 65px;
+    margin-top: 33px;
+    font-family: "Roboto Flex";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 140%;
+    /* or 24px */
+    letter-spacing: 0.005em;
+
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}
+.SectionContactUs-button:hover {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+@media (max-width: 912px) {
+    .SectionContactUs-desc {
+        /* font-family: 'Roboto Flex', sans-serif; */
+        width: 80%;
+        /* margin: 0 auto; */
+        /* font-size: 17px; */
+        /* letter-spacing: 2px; */
+    }
+}
+
+@media (max-width: 556px) {
+    .SectionContactUs-title {
+        font-family: "Roboto Flex", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .SectionContactUs-desc {
+        /* font-family: 'Roboto Flex', sans-serif; */
+        width: 90%;
+        /* margin: 0 auto; */
+        font-size: 16px;
+        /* letter-spacing: 2px; */
+    }
+    .SectionContactUs-button {
+        margin-top: unset;
+        margin-top: 42px;
+    }
+}

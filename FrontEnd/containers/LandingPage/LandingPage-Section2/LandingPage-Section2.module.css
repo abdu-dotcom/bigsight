@@ -1,0 +1,175 @@
+#LandingPage-Section2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 80px 5% 45px 5%;
+    background-color: white;
+}
+
+.LandingPage-Section2-Left {
+    height: 100%;
+}
+
+.LandingPage-Section2-Left-content-container h2 {
+    text-align: left;
+}
+
+.LandingPage-Section2-Left-content-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 134%;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.LandingPage-Section2-right {
+    height: 100%;
+}
+
+.LandingPage-Section2-Right-Card {
+    cursor: pointer;
+    border: none;
+    overflow: hidden;
+    width: 90%;
+    min-height: 450px;
+    background-color: rgba(242, 244, 248, 1);
+    /* border-bottom: 11px solid #ee2e24; */
+    float: right;
+    margin: 0 0 13px 0;
+    /* padding: 18px 28px; */
+    box-shadow: -2px 1px 2px 0px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+}
+
+.LandingPage-Section2-Right-Card:hover {
+    box-shadow: -4px 4px 10px 0px rgb(0 0 0 / 10%);
+    transition: 0.3s;
+}
+
+.LandingPage-Section2-Right-Card-container-Image {
+    margin: 20px;
+}
+
+.LandingPage-Section2-Right-Card-Image {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.LandingPage-Section2-Right-Card-Body {
+    padding: .5rem 2rem;
+}
+
+.LandingPage-Section2-Right-Card-Title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    /* min-height: 50px; */
+}
+
+.LandingPage-Section2-Right-Card-Text {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+
+.LandingPage-Section2-Right-Card-Footer {
+    padding: 0.35rem 1rem;
+    background-color: #ee2e24;
+}
+
+
+/* costume dots */
+
+.button__bar {
+    display: block;
+    margin-top: 30px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 40px;
+    width: auto;
+    float: right;
+    text-align: center;
+}
+
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+}
+
+.button__bar li button {
+    border: none;
+    background: #eaeaea;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 7.5px;
+}
+
+.button__bar :global(li.slick-active) button {
+    background-color: #ee2e24;
+}
+
+.slick-slide img {
+    border: 5px solid #fff;
+    display: block;
+    margin: auto;
+}
+
+@media (min-width: 200px) and (max-width: 992px) {
+    .LandingPage-Section2-Right-Card {
+        float: unset;
+        /* max-width: 420px; */
+        /* margin: unset; */
+        margin: 0 auto;
+    }
+    .LandingPage-Section2-Left-content-container h2 {
+        text-align: center;
+    }
+    .LandingPage-Section2-Left-content-container h2 {
+        /* text-align: center; */
+        margin-bottom: 20px;
+    }
+    .LandingPage-Section2-Left-content-Title {
+        margin-bottom: 40px;
+    }
+    .button__bar {
+        margin-top: 50px;
+        float: unset;
+    }
+}
+
+@media (max-width: 992px) {
+    #LandingPage-Section2 {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 640px) {
+    .LandingPage-Section2-Right-Card {
+        float: unset;
+        width: 95%;
+        margin: unset;
+        margin: 0 auto;
+    }
+}

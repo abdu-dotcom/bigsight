@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+#UpdatePage-Section1 {
+    display: flex;
+    background-color: #C4C4C4;
+    min-height: 425px;
+    width: 100%;
+    background-image: linear-gradient(to right, #002145, #ee2e24);
+}
+
+.UpdatePage-Section-Container {
+    display: flex;
+    width: 100%;
+}
+
+.UpdatePage-Section-Container-left,
+.UpdatePage-Section-Container-right {
+    width: 50%;
+    margin: auto 0;
+    text-align: center;
+}
+
+.UpdatePage-Section-Container-content-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width: 695px) {
+    .UpdatePage-Section-Container-right {
+        display: none;
+    }
+    .UpdatePage-Section-Container-left {
+        width: 100%;
+    }
+}

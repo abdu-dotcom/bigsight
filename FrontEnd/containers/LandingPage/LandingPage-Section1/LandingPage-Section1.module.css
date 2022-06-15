@@ -1,0 +1,230 @@
+#LandingPage-Section1 {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f2f4f8;
+    position: relative;
+}
+
+.Section1-Content-Container {
+    z-index: 2;
+}
+
+.LandingPage-Section1-Left {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.LandingPage-Section1-Left-Content-Container {
+    margin-left: -100px;
+    padding-top: 94px;
+}
+
+.LandingPage-Section1-Left-Desc {
+    width: 100%;
+    max-width: 370px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #ee2e24;
+}
+
+.LandingPage-Section1-Left-Title {
+    width: 100%;
+    max-width: 434px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.LandingPage-Section1-Type-Container {
+    width: 100%;
+    max-width: 365px;
+}
+
+.LandingPage-Section1-Left-Title-Type {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 43px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    max-width: 434px;
+    color: #0000;
+    background: linear-gradient(-90deg, black 5px, #0000 0) 10px 0, linear-gradient(black 0 0) 0 0;
+    background-size: calc(41 * 1ch) 200%;
+    -webkit-background-clip: padding-box, text;
+    background-clip: padding-box, text;
+    background-repeat: no-repeat;
+    animation: b 1s infinite steps(1), t calc(41 * 0.1s) steps(41) forwards;
+}
+
+@keyframes t {
+    from {
+        background-size: 0 100%;
+    }
+}
+@keyframes b {
+    50% {
+        background-position: 0 -100%, 0 0;
+    }
+}
+
+.LandingPage-Section1-Button-Span-Arrow {
+    margin-left: 12px;
+}
+
+.LandingPage-Section1-Right-Column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 94px;
+    margin-right: 100px;
+}
+
+.LandingPage-Section1-Video-Container {
+    width: 100%;
+    height: 100%;
+    max-width: 588px;
+    max-height: 348px;
+}
+
+.LandingPage-Section1-Aspect-Ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%;
+}
+
+.LandingPage-Section1-Video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.LandingPage-Section1-Button-Container {
+    margin-top: 73px;
+}
+
+.Section1-Background-Container {
+    width: 100vw;
+    height: 100vh;
+    transform: scale(2.4);
+    opacity: 0.15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    position: absolute;
+}
+
+@media screen and (max-width: 1400px) {
+    .LandingPage-Section1-Left {
+        margin-left: 5%;
+    }
+    .LandingPage-Section1-Right-Column {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage-Section1-Left {
+        margin-left: 0px;
+    }
+    .LandingPage-Section1-Right-Column {
+        margin-right: 0px;
+    }
+    .LandingPage-Section1-Left {
+        height: 300px;
+        min-height: 0px;
+    }
+    .LandingPage-Section1-Right-Column {
+        height: fit-content;
+    }
+    .LandingPage-Section1-Left-Content-Container {
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .LandingPage-Section1-Left-Desc {
+        max-width: 100vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .LandingPage-Section1-Left-Title {
+        max-width: 100vw;
+        width: 100vw;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .LandingPage-Section1-Button-Container {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 73px;
+    }
+    .LandingPage-Section1-Left-Desc {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .LandingPage-Section1-Left-Title {
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .LandingPage-Section1-Video-Container {
+        max-width: 90%;
+        max-height: 90%;
+        margin-top: 50px;
+    }
+    .LandingPage-Section1-Button-Container {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #LandingPage-Section1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .LandingPage-Section1-Left-Desc {
+        font-size: calc(0.75 * 22px);
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .LandingPage-Section1-Left-Title {
+        font-size: calc(0.75 * 48px);
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .LandingPage-Section1-Left-Desc {
+        max-width: 100vw;
+        width: 100vw;
+        text-align: center;
+        font-size: calc(0.8 * 22px);
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .LandingPage-Section1-Left-Title {
+        margin-top: 20px;
+        max-width: 100vw;
+        width: 100vw;
+        text-align: center;
+        font-size: calc(0.7 * 48px);
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    .LandingPage-Section1-Button-Container {
+        padding-top: 0px;
+    }
+}

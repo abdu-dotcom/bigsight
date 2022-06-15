@@ -1,0 +1,88 @@
+#Solutions-Section1 {
+    min-height: 422px;
+    background: linear-gradient(95.33deg, #002145 18.24%, #ee2e24 125.82%);
+}
+
+.Solutions-Section1-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    width: 100%;
+    max-width: 472px;
+    font-size: 48px;
+    line-height: 134%;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.Solutions-Section1-Vector-Wrapper {
+    height: 266px;
+    width: 262px;
+}
+
+.Solutions-Section1-Right-Column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 422px;
+}
+
+.Solutions-Section1-Left-Column {
+    width: 100%;
+    height: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section1-Right-Full-Vector {
+    border: 1px solid white;
+    position: relative;
+}
+
+.Solutions-Section1-Lamp-Row-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 0px;
+    z-index: 2;
+    animation-name: LampOpacity;
+    animation-duration: 1.5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes LampOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.Solutions-Section1-Doping-Wrapper {
+    width: 229.99px;
+    height: 154.49px;
+    position: relative;
+    z-index: 1;
+}
+
+.Solutions-Section1-Lamp-Wrapper {
+    width: 83.9px;
+    height: 105.26px;
+}
+
+@media screen and (max-width: 768px) {
+    .Solutions-Section1-Right-Column {
+        display: none;
+    }
+    .Solutions-Section1-Title {
+        font-size: calc(0.9 * 48px);
+        text-align: center;
+    }
+}

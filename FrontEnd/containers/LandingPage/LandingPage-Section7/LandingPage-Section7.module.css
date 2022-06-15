@@ -1,0 +1,92 @@
+#LandingPage-Section7 {
+    width: 100vw;
+    min-height: 553px;
+    background: white;
+    position: relative;
+}
+
+.LandingPage-Section7-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #323232;
+    padding-top: 73px;
+}
+
+.LandingPage-Section7-RowLogo-Container {
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.LandingPage-Section7-Column-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LandingPage-Section1-Column-Container{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.LandingPage-Section7-Telkom-Wrapper {
+    width: 168px;
+    height: 130px;
+}
+
+.LandingPage-Section7-Kemenkes-Wrapper {
+    width: 171px;
+    height: 79px;
+}
+
+.LandingPage-Section7-Seknat-Negara-Wrapper {
+    width: 176px;
+    height: 176px;
+}
+
+.LandingPage-Section7-Pertamina-Wrapper {
+    width: 243px;
+    height: 57px;
+}
+
+.LandingPage-Section7-Dishub-Wrapper {
+    width: 76px;
+    height: 89px;
+}
+
+.LandingPage-Section7-AHM-Wrapper {
+    width: 185px;
+    height: 96px;
+}
+
+.LandingPage-Section7-KAI-Wrapper {
+    width: 133px;
+    height: 55px;
+}
+
+.LandingPage-Section7-Kimia-Farma-Wrapper {
+    width: 186px;
+    height: 67px;
+}
+
+.LandingPage-Section7-Pegadaian-Wrapper {
+    width: 186px;
+    height: 67px;
+}
+
+.LandingPage-Section7-Title2 {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 78px;
+    color: #323232;
+    padding-bottom: 73px;
+}

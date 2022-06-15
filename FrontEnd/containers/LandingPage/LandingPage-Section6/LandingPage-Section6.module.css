@@ -1,0 +1,102 @@
+#LandingPage-Section6 {
+    min-height: 601px;
+    width: 100vw;
+    background-color: #002145;
+    padding-bottom: 135px;
+}
+
+.LandingPage-Section6-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 135px;
+}
+
+.LandingPage-Section6-Cloudera-Logo-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+
+.LandingPage-Section6-Cloudera-Logo-Wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 296px;
+    max-height: 36px;
+}
+
+.LandingPage-Section6-Seknat-Logo-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.LandingPage-Section6-Seknat-Logo-Wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.LandingPage-Section6-Column-Content-Title-Seknat {
+    margin-top: 19px;
+}
+
+.LandingPage-Section6-Column-Content-Desc-Seknat {
+    margin-top: -10px;
+}
+
+.LandingPage-Section6-CioOutlook-Logo-Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LandingPage-Section6-CioOutlook-Logo-Wrapper {
+    width: 241px;
+    height: 73px;
+}
+
+.LandingPage-Section6-Column-Content-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+}
+
+.LandingPage-Section6-Column-Content-Title-Cloudera {
+    margin-top: 69px;
+}
+
+.LandingPage-Section6-Column-Content-Title-CioOutlook {
+    margin-top: 60px;
+}
+
+.LandingPage-Section6-Column-Content-Desc {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.LandingPage-Section6-Column-Container {
+    margin-top: 88px;
+}
+
+@media screen and (max-width: 768px) {
+    .LandingPage-Section6-Content-Parent-Container {
+        padding-bottom: 80px;
+    }
+}

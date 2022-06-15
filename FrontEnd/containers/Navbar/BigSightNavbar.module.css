@@ -1,0 +1,189 @@
+.NavbarBigSight {
+    min-height: 94px;
+    width: 100vw;
+    box-shadow: 0 4px 4px 0px rgb(0, 0, 0, 0.11);
+    display: flex;
+    background-color: white;
+}
+
+.BigSightNavbarLogo {
+    width: 146px;
+    height: 51px;
+    margin-top: -10px;
+}
+
+.BigSightNavbarMenu {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+}
+
+.BigSightNavbarMenu-Active {
+    color: #ee2e24;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 5px;
+}
+
+.BigSightNavbarMenu:hover {
+    color: #d23d3d;
+}
+
+.BigSightNavbarMenuMarginLeft {
+    margin-left: 33px;
+}
+
+.BigSightNavbarMenuDropdown {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+}
+
+.BigSightNavbarMenuDropdown:hover {
+    color: #d23d3d;
+}
+
+.BigSightDropDown-Menu1 {
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.BigSightDropDown-Menu1-Active {
+    color: #ee2e24;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.BigSightDropDown-Menu1:hover {
+    color: #d23d3d;
+}
+
+.dropdown-item {
+    height: 30px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: blue;
+}
+
+.dropdown-item-Lang {
+    width: 30px;
+}
+
+.dropdown-menu-width {
+    width: 273px;
+}
+
+.rowDropDown {
+    height: 25px;
+}
+
+.NavbarButton-Container {
+    padding-top: 5px;
+    padding-left: 33px;
+}
+
+.Button-Container {
+    padding-top: 5px;
+}
+
+.NavbarButton-Dropdown-Container {
+    position: relative;
+    bottom: 2px;
+}
+
+@media screen and (max-width: 1440px) {
+    .BigSightnavbarMenu-container {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .BigSightnavbarMenu-container {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .BigSightnavbarMenu-container {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .BigSightNavbarMenuMarginLeft {
+        margin-left: 20px;
+    }
+    .NavbarButton-Container {
+        padding-left: 10px;
+    }
+    .BigSightNavbarLogo {
+        transform: scale(0.9);
+    }
+}
+
+@media screen and (max-width: 1100px) {
+}
+
+@media screen and (max-width: 992px) {
+    #navbarBigSight {
+        height: auto;
+        margin-top: -40px;
+    }
+    .BigSightNavbarLogo {
+        transform: scale(0.8);
+    }
+    #navbarBigSight > .container {
+        position: relative;
+        top: 20px;
+    }
+    .dropdown-menu {
+        width: 100%;
+    }
+    .BigSightnavbarMenu-container {
+        margin-left: 0px;
+    }
+    .BigSightNavbarMenuMarginLeft {
+        margin-left: 0px;
+    }
+    .NavbarButton-Container {
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 300px;
+    }
+    .navbar-collapse {
+        margin-bottom: 20px;
+    }
+    .nav-link {
+        height: 40.3px;
+    }
+    .NavbarButton-Container {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

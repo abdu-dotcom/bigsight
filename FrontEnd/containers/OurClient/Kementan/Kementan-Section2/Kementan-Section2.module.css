@@ -1,0 +1,110 @@
+#Kementan-Section2 {
+    padding-bottom: 90px;
+}
+
+.Kementan-Section2-Image-Container {
+    width: 100%;
+    height: fit-content;
+}
+
+.Kementan-Section2-Image-Wrapper {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.Kementan-Section2-Title {
+    font-family: "Roboto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.Kementan-Section2-Section-Title {
+    font-family: "Roboto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding-top: 48px;
+}
+
+.Kementan-Section2-Section-Desc {
+    font-family: "Roboto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    text-align: justify;
+    margin-top: 28px;
+}
+
+.Kementan-Section2-Column-Container {
+    padding-top: 37px;
+}
+
+.Kementan-Section2-Description-List-Container {
+    padding-top: 20px;
+}
+
+.Kementan-Section2-Section-Solutions-Container {
+    width: 100%;
+    border: 5px solid #002145;
+    border-radius: 5px;
+    min-height: 286px;
+    padding-top: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.Kementan-Section2-Section-Solutions-Column-Container {
+    display: flex;
+    justify-content: center;
+    height: 71px;
+    align-items: center;
+}
+
+.Kementan-Section2-Section-Solutions-Container-Row-Left {
+    display: flex;
+    justify-content: end;
+}
+
+.Kementan-Section2-Section-Solutions-Container-Row-Right {
+    display: flex;
+    justify-content: start;
+    margin-left: 60px;
+}
+
+.Kementan-Section2-Section-Solutions-Container-Row {
+    width: 100%;
+}
+
+.Kementan-Section2-Section-Solutions-Column-Desc {
+    font-family: "Roboto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    padding-top: 16px;
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    .Kementan-Section2-Column-Container {
+        padding-top: 0px;
+    }
+    .Kementan-Section2-Description-List-Container {
+        padding-top: 0px;
+    }
+    .Kementan-Section2-Section-Desc{
+        margin-top: 15px;
+    }
+}

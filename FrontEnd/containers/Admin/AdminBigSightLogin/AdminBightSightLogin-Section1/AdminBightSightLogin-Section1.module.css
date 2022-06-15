@@ -1,0 +1,47 @@
+#AdminBightSightLogin-Section1-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90.4vh;
+}
+
+.AdminBightSightLogin-Section1-Content-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 450px;
+    background-image: linear-gradient(to right, #EE2E24, #002145);
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.AdminBightSightLogin-Section1-Contenet-Button {
+    border: none;
+    background-color: white;
+    width: 30%;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+.AdminBightSightLogin-Section1-Container-content-img {
+    width: 50%;
+    margin: 40px auto 0;
+}
+
+.AdminBightSightLogin-Section1-Contenet-Button {
+    float: right;
+}
+
+@media (max-width: 540px) {
+    .AdminBightSightLogin-Section1-Content-Form {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: flex-end; */
+        max-width: unset;
+        width: 100%;
+        margin: 25px;
+        background-image: linear-gradient(to right, #EE2E24, #002145);
+        padding: 35px;
+        border-radius: 5px;
+    }
+}

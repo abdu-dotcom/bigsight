@@ -1,0 +1,54 @@
+GET http://localhost:5000/news
+
+###
+GET http://localhost:5000/news/3
+
+###
+POST  http://localhost:5000/news
+Content-Type: application/json
+
+{
+    "title": "title 3",
+    "description": "description 3",
+    "img": "news2.png"
+}
+
+###
+PATCH   http://localhost:5000/news/3
+Content-Type: application/json
+
+{
+    "title": "Innovation Awards",
+    "description": "The PUU 2.0 Big Data Analytics team with the PUU 2.0 Big Data Analytics product “Transforming the Regulatory making Process” won the innovator team from the Telkom Indonesia incubator!"
+}
+###
+DELETE    http://localhost:5000/news/3
+
+
+
+### GEt USER
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJuYW1lIjoiYWRtaW4iLCJpYXQiOjE2NTQxNzQ4OTgsImV4cCI6MTY1NDE3NDkxM30.TQ2S26Qzhf2aBJ21YJNuhwetlc2Frr9jkFrHsDdmfB0
+
+### REGISTER
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin",
+    "confirmPassword": "admin"
+}
+### LOGIN
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+### LOGOUT
+DELETE  http://localhost:5000/logout
+
+### REFRESH TOKEN
+GET http://localhost:5000/token

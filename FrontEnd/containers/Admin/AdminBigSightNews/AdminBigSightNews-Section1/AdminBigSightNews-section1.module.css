@@ -1,0 +1,67 @@
+#AdminBigSightNews-Section1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.AdminBigSightNews-Section1-Content-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.AdminBigSightNews-Section1-Right-button-add {
+    font-size: 48px;
+    color: #EE2E24;
+}
+
+.AdminBigSightNews-Section2-content-button {
+    margin-right: 20px
+}
+
+.AdminBigSightNews-Section1-Container-Right {
+    display: flex;
+}
+
+.AdminBigSightNews-Section1-Right-container-button-logout {
+    margin: auto 0 auto 25px;
+}
+
+.AdminBigSightNews-Section1-Right-button-logout {
+    all: unset;
+}
+
+@media (max-width: 920px) {
+    .AdminBigSightNews-Section1-Content-title {
+        /* font-size: 32px; */
+    }
+    .AdminBigSightNews-Section1-Right-button-add {
+        /* font-size: 38px; */
+        color: #EE2E24;
+    }
+    #AdminBigSightNews-Section1 {
+        /* display: flex; */
+        /* width: 100%; */
+        /* justify-content: space-between; */
+        padding: 40px 60px;
+    }
+}
+
+@media (max-width: 540px) {
+    .AdminBigSightNews-Section1-Content-title {
+        font-size: 24px;
+    }
+    .AdminBigSightNews-Section1-Right-button-add {
+        font-size: 34px;
+        color: #EE2E24;
+    }
+    #AdminBigSightNews-Section1 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 40px 30px;
+    }
+}

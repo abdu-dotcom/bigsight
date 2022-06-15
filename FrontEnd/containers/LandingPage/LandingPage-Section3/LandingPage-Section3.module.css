@@ -1,0 +1,102 @@
+#LandingPage-Section3 {
+    width: 100vw;
+    min-height: fit-content;
+    background-color: #002145;
+    color: white;
+    padding-bottom: 56px;
+}
+
+.LandingPage-Section3-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 134%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 56px;
+}
+
+.LandingPage-Section3-Content-Container {
+    width: 100%;
+    max-width: 555px;
+    height: max-content;
+}
+
+.LandingPage-Section3-Content-Container-Row1 {
+    height: 122px;
+    border-bottom: 2px solid white;
+}
+
+.LandingPage-Section3-Content-Container-Row1-Row {
+    display: flex;
+    align-items: center;
+}
+
+.LandingPage-Section3-Content-Container-Row1-Img-Wrapper {
+    max-width: 84px;
+    max-height: 82px;
+}
+
+.LandingPage-Section3-Content-Container-Row1-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    margin-left: 25px;
+    color: #ffffff;
+}
+
+.LandingPage-Section3-Content-Container-Row2-Desc {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    margin-top: 26px;
+    color: #ffffff;
+}
+
+.LandingPage-Section3-Column-PaddingTop-Container {
+    padding-top: 56px;
+}
+
+@media screen and (max-width: 992px) {
+    .LandingPage-Section3-Content-Container-Row1-Img-Wrapper {
+        transform: scale(0.9);
+    }
+    .LandingPage-Section3-Content-Container-Row1{
+        height: 100px;
+    }
+    .LandingPage-Section3-Content-Container-Row2-Desc {
+        margin-top: 15px;
+    }
+    .LandingPage-Section3-Column-PaddingTop-Container {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .LandingPage-Section3-Column-Right-Container {
+        padding-top: 75px;
+    }
+    .LandingPage-Section3-Column-PaddingTop-Container {
+        padding-top: 45px;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .LandingPage-Section3-Title {
+        font-size: calc(0.9 * 30px);
+    }
+    .LandingPage-Section3-Column-PaddingTop-Container{
+        padding-top: 30px;
+    }
+}

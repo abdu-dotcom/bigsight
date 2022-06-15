@@ -1,0 +1,116 @@
+#Faq-Section1 {
+    width: 100vw;
+    min-height: 620px;
+}
+
+.Faq-Section1-Content-Container {
+    padding-top: 133px;
+    padding-bottom: 50px;
+}
+
+.Faq-Section1-Title {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #ee2e24;
+}
+
+.Faq-Section1-Accordian-Row-Container {
+    border: 2px solid #ee2e24;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-header {
+    background-color: transparent;
+}
+
+.Faq-Section1-Accordian-Question-Container {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.Faq-Section1-Accordian-Question-Button {
+    height: fit-content;
+    min-height: 75px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #ee2e24;
+    font-size: 27px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-align: left;
+    padding-top: 10px;
+    text-transform: capitalize;
+}
+
+.Faq-Section1-Accordian-Answer {
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: justify;
+    letter-spacing: 0.005em;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #000000;
+    display: inline-block;
+}
+
+.Faq-Section1-Accordian-Indicator {
+    transform: rotate(45deg);
+}
+
+.Faq-Section1-Accordian-Indicator-Normal {
+    transform: rotate(0deg);
+}
+
+.Faq-Section1-Accordian-Link {
+    color: #ee2e24;
+    cursor: pointer;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    animation: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.Faq-Section1-Accordian-Link:hover {
+    color: #ee2e24;
+}
+
+@media screen and (max-width: 992px) {
+    .Faq-Section1-Content-Container {
+        padding-top: 60px;
+    }
+    .Faq-Section1-Right-Column {
+        padding-top: 40px;
+    }
+    .Faq-Section1-Accordian-Question-Button {
+        font-size: calc(0.85 * 27px);
+    }
+    .Faq-Section1-Accordian-Answer {
+        font-size: calc(0.85 * 20px);
+    }
+    .Faq-Section1-Title {
+        font-size: calc(0.85 * 50px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Faq-Section1-Accordian-Question-Button {
+        font-size: calc(0.75 * 27px);
+        min-height: 40px;
+    }
+    .Faq-Section1-Accordian-Answer {
+        font-size: calc(0.75 * 20px);
+    }
+}
